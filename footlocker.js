@@ -14,40 +14,40 @@ const { sub } = require('tough-cookie/lib/version');
 const adyenEncrypt = require('./adyen');
 const random = require('random');
 
-var webhook = ""; //static discord goes here
+var webhook = ""; // static discord goes here
 
 var profile = {
-    "name": "Shane",
+    "name": "Test User",
     "size": "",
     "profileGroup": "",
     "billingAddress": {
-      "name": "Test name",
-      "email": "test@gmail.com",
+      "name": "Test Name",
+      "email": "test@example.com",
       "phone": "5555555555",
-      "line1": "123 Main",
-      "line2": "Apt 3",
+      "line1": "123 Test St",
+      "line2": "Apt 1",
       "line3": "",
-      "postCode": "48504",
-      "city": "Flint",
+      "postCode": "12345",
+      "city": "Test City",
       "country": "United States",
-      "state": "Michigan"
+      "state": "Test State"
     },
     "shippingAddress": {
-      "name": "Shane Combs",
-      "email": "test@gmail.com",
+      "name": "Test User",
+      "email": "test@example.com",
       "phone": "5555555555",
-      "line1": "123 Main",
-      "line2": "Apt 3",
+      "line1": "123 Test St",
+      "line2": "Apt 1",
       "line3": "",
-      "postCode": "48504",
-      "city": "Flint",
+      "postCode": "12345",
+      "city": "Test City",
       "country": "United States",
-      "state": "Michigan"
+      "state": "Test State"
     },
     "paymentDetails": {
-      "nameOnCard": "Shane Combs",
+      "nameOnCard": "Test User",
       "cardType": "Visa",
-      "cardNumber": "4242424242424242",
+      "cardNumber": "4111111111111111",
       "cardExpMonth": "01",
       "cardExpYear": "2025",
       "cardCvv": "123"
@@ -58,22 +58,22 @@ var profile = {
 }
 
 var task = {
-        "mode": "Inital",
-        "monitorInput": "X6898010",
-        "profile": "Shane",
-        "proxies": "vanilla",
-        "errorDelay": "5555",
-        "monitorDelay": "5555",
-        "sizes": [
-          "M"
-        ],
-        "color": "random",
-        "site": {
-          "name": "FootLocker",
-          "url": "https://www.footlocker.com/"
-        },
-        "quantity": "1",
-        "taskID": "4gzguPuXHS"
+    "mode": "Inital",
+    "monitorInput": "X0000000",
+    "profile": "Test User",
+    "proxies": "vanilla",
+    "errorDelay": "5555",
+    "monitorDelay": "5555",
+    "sizes": [
+      "M"
+    ],
+    "color": "random",
+    "site": {
+      "name": "FootLocker",
+      "url": "https://www.footlocker.com/"
+    },
+    "quantity": "1",
+    "taskID": "1a2b3c4d5e"
 }
 
 var proxyList;
