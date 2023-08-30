@@ -1,7 +1,3 @@
-Got it, here is the modified README.md file including the new section:
-
----
-
 # Footlocker Checkout Tool 👟
 
 Hello everyone! 👋
