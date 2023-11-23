@@ -58,3 +58,7 @@ Feel free to use this code as a reference or contribute to it by opening a pull 
 This tool was developed for educational purposes only. We are not responsible for any misuse of this tool or any damages caused by it. Use it at your own risk.
 
 Thank you for stopping by! 💙
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=d-suter/footlocker-bot&type=Date)](https://star-history.com/#d-suter/footlocker-bot&Date)
