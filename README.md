@@ -14,7 +14,7 @@ Welcome to the repository of Footlocker Checkout Tool. This tool was developed t
 **Note**: This tool was developed in 2021 and is probably not working anymore due to changes in Footlocker's website and bot protection mechanisms. You are free to use the code or open pull requests if you think you have added something valuable. However, issues will not be looked at since we, ceodavee and vihangatheturtle, are not working in the sneaker scene anymore.
 
 ## Authors 👨‍💻
-- ceodavee - [github.com/ceodavee](https://github.com/ceodavee)
+- d-suter - [github.com/d-suter](https://github.com/d-suter)
 - vihangatheturtle - [github.com/vihangatheturtle](https://github.com/vihangatheturtle)
 
 ## Configuring footlocker.js 🔧
